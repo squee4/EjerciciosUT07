@@ -19,6 +19,24 @@ public class Ejercicio10 {
             //  Saber la cantidad de vehículos Citroen.
             //  Comprueba si hay algún Peugeot negro disponible en la lista.
 
+            
+            
     }
+    
+//    public static void crearDirectorio(String ruta) {
+//
+//        Path directory = Paths.get(ruta);
+//        try {
+//            Files.createDirectory(directory);
+//        } catch (FileAlreadyExistsException faee) {
+//            System.out.println("No se puede crear " + ruta + " porque ya existe");
+//        } catch (AccessDeniedException ade) {
+//            System.out.println("No tiene permisos para crear " + ruta);
+//        } catch (IOException e) {
+//            System.out.println("Problema creando el directorio " + ruta);
+//            System.out.println("Seguramente la ruta está mal escrita o no existe");
+//        }
+//
+//    }
     
 }
