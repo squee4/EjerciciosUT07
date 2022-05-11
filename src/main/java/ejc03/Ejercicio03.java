@@ -33,7 +33,7 @@ public class Ejercicio03 {
         
         do{
             posicion = rnd.nextInt(letras.length());
-            retorno = retorno + letras.charAt(posicion);
+            retorno = retorno + letras.charAt(posicion)+";";
             
         } while (posicion!=6 && posicion!=32);
         
