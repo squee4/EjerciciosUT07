@@ -1,5 +1,5 @@
 
-package ejc07;
+package ejc08;
 
 public class Furgoneta extends Vehiculo{
 
