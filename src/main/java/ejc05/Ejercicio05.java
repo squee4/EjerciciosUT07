@@ -21,39 +21,22 @@ public class Ejercicio05 {
         // Estructura try-with-resources. Permite cerrar los recursos una vez finalizadas
         // las operaciones con el archivo
         try ( Scanner datosFichero = new Scanner(new FileReader(idFichero))) {
-
+            int suma = 0;
             // Mientras haya líneas por leer
             while (datosFichero.hasNextLine()) {
 
                 linea = datosFichero.nextLine(); //Se lee la línea
-                System.out.println(linea); // Se imprime en pantalla
-            }
+                tokens = linea.split("\t"); // se separa por tabulador
+                
+                for (String token : tokens) {
+                    suma = suma + Integer.parseInt(token); //por cada token se suma a "suma"
 
-        } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
-        }
-
-        // El mismo ejemplo pero separando cada elemento
-        // leído usando el método split() de la clase String */
-        try ( Scanner datosFichero = new Scanner(new FileReader(idFichero))) {
-
-            System.out.println("Separando cada elemento del fichero: ");
-
-            while (datosFichero.hasNextLine()) {
-
-                linea = datosFichero.nextLine();
-
-                // Se guarda en el array de String cada elemento de la
-                // línea en función del carácter separador coma
-                tokens = linea.split(",");
-
-                for (String string : tokens) {
-                    System.out.print(string + "\t");
                 }
-
-                System.out.println();
+                
             }
-
+            
+            System.out.println("La suma de la matriz equivale a "+suma);
+            
         } catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
         }
