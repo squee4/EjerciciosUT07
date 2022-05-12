@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class Ejercicio11 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         ArrayList<App> lista = new ArrayList();
         
         for (int i = 0; i < 50; i++) {
@@ -30,9 +30,17 @@ public class Ejercicio11 {
         
         crearFicherotxt("./appstxt/aplicacionestxt.txt", lista);
         
+        crearDirectorio("./appsjson");
+        
+        crearFicheroJSON("./appsjson/aplicacionesxml.json", lista);
+        
         crearDirectorio("./copias");
         
+        copiarFicheros("./appstxt/aplicacionestxt.txt", "./copias/aplicacionestxt.txt");
+        copiarFicheros("./appsjson/aplicacionesxml.json", "./copias/aplicacionesxml.json");
+        
         crearDirectorio("./aplicaciones");
+        escribirAppsEnFicheroTxt(lista);
     }
     
     public static void crearDirectorio(String ruta) {
@@ -80,4 +88,44 @@ public class Ejercicio11 {
         // Escribe en un fichero JSON el catálogo de muebles
         mapeador.writeValue(new File(nombre), lista);
     }
+    
+    public static void copiarFicheros(String rutaOrigen, String rutaDestino) {
+        Path origen = Paths.get(rutaOrigen);
+        Path destino = Paths.get(rutaDestino);
+
+        try {
+            if (!Files.exists(destino)) {
+                Files.copy(origen, destino);
+                System.out.println("Se han copiado los archivos");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    
+    public static void escribirAppsEnFicheroTxt(ArrayList<App> listaApp) {
+        for (App app : listaApp) {
+            try (BufferedWriter flujo = new BufferedWriter(new FileWriter("./aplicaciones/"+app.getNombre()+".txt"))) {
+
+                flujo.write(app.toString());
+                flujo.flush();
+                System.out.println("Fichero aplicaciones " +app.getNombre()  + " creado correctamente.");
+            } catch (IOException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+
+    }
+    
+    // recorrer un map 
+//    public String toString() {
+//        String texto;
+//        texto=nombre+"\n";
+//        
+//        for(String incial: notas.keySet()){
+//            texto=texto+"["+incial+": "+notas.get(incial)+"] ";
+//        }
+//        
+//        return texto;
+//    }
 }

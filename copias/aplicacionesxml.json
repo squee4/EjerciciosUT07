@@ -1,0 +1,301 @@
+[ {
+  "codigo" : 1,
+  "numDescargas" : 44390,
+  "tamanio" : 820.0885146085134,
+  "nombre" : "app1n",
+  "descripcion" : "Estilo de vida"
+}, {
+  "codigo" : 2,
+  "numDescargas" : 49006,
+  "tamanio" : 693.4707925761102,
+  "nombre" : "app2k",
+  "descripcion" : "Fotografía"
+}, {
+  "codigo" : 3,
+  "numDescargas" : 13843,
+  "tamanio" : 237.48508864236402,
+  "nombre" : "app3k",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 4,
+  "numDescargas" : 27846,
+  "tamanio" : 227.1744419883688,
+  "nombre" : "app4n",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 5,
+  "numDescargas" : 1984,
+  "tamanio" : 468.3972955346715,
+  "nombre" : "app5j",
+  "descripcion" : "Educación"
+}, {
+  "codigo" : 6,
+  "numDescargas" : 9440,
+  "tamanio" : 637.0710717503202,
+  "nombre" : "app6e",
+  "descripcion" : "Educación"
+}, {
+  "codigo" : 7,
+  "numDescargas" : 36015,
+  "tamanio" : 668.4693477336247,
+  "nombre" : "app7f",
+  "descripcion" : "Juegos"
+}, {
+  "codigo" : 8,
+  "numDescargas" : 16144,
+  "tamanio" : 965.9022176313368,
+  "nombre" : "app8p",
+  "descripcion" : "Cocina"
+}, {
+  "codigo" : 9,
+  "numDescargas" : 25791,
+  "tamanio" : 997.5381957681905,
+  "nombre" : "app9t",
+  "descripcion" : "Finanazas"
+}, {
+  "codigo" : 10,
+  "numDescargas" : 6300,
+  "tamanio" : 658.8431649486525,
+  "nombre" : "app10e",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 11,
+  "numDescargas" : 674,
+  "tamanio" : 635.221753454814,
+  "nombre" : "app11o",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 12,
+  "numDescargas" : 24862,
+  "tamanio" : 458.1405160757419,
+  "nombre" : "app12y",
+  "descripcion" : "Cocina"
+}, {
+  "codigo" : 13,
+  "numDescargas" : 43431,
+  "tamanio" : 480.6008801685462,
+  "nombre" : "app13a",
+  "descripcion" : "Estilo de vida"
+}, {
+  "codigo" : 14,
+  "numDescargas" : 16794,
+  "tamanio" : 418.314644254376,
+  "nombre" : "app14p",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 15,
+  "numDescargas" : 40479,
+  "tamanio" : 963.127776603871,
+  "nombre" : "app15q",
+  "descripcion" : "Productividad"
+}, {
+  "codigo" : 16,
+  "numDescargas" : 18641,
+  "tamanio" : 386.2596727028066,
+  "nombre" : "app16p",
+  "descripcion" : "Productividad"
+}, {
+  "codigo" : 17,
+  "numDescargas" : 31733,
+  "tamanio" : 959.3664406021878,
+  "nombre" : "app17f",
+  "descripcion" : "Fotografía"
+}, {
+  "codigo" : 18,
+  "numDescargas" : 32582,
+  "tamanio" : 154.21674115323668,
+  "nombre" : "app18a",
+  "descripcion" : "Estilo de vida"
+}, {
+  "codigo" : 19,
+  "numDescargas" : 16151,
+  "tamanio" : 541.7319371251261,
+  "nombre" : "app19y",
+  "descripcion" : "Música"
+}, {
+  "codigo" : 20,
+  "numDescargas" : 18074,
+  "tamanio" : 841.74761723346,
+  "nombre" : "app20s",
+  "descripcion" : "Productividad"
+}, {
+  "codigo" : 21,
+  "numDescargas" : 36887,
+  "tamanio" : 102.79984997131821,
+  "nombre" : "app21k",
+  "descripcion" : "Cocina"
+}, {
+  "codigo" : 22,
+  "numDescargas" : 30621,
+  "tamanio" : 910.2924616420271,
+  "nombre" : "app22d",
+  "descripcion" : "Finanazas"
+}, {
+  "codigo" : 23,
+  "numDescargas" : 37402,
+  "tamanio" : 468.63268346459523,
+  "nombre" : "app23b",
+  "descripcion" : "Fotografía"
+}, {
+  "codigo" : 24,
+  "numDescargas" : 31003,
+  "tamanio" : 400.58595666547797,
+  "nombre" : "app24o",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 25,
+  "numDescargas" : 14279,
+  "tamanio" : 782.4873376515624,
+  "nombre" : "app25c",
+  "descripcion" : "Cocina"
+}, {
+  "codigo" : 26,
+  "numDescargas" : 11579,
+  "tamanio" : 261.58668568169344,
+  "nombre" : "app26b",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 27,
+  "numDescargas" : 26094,
+  "tamanio" : 605.7026384664273,
+  "nombre" : "app27c",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 28,
+  "numDescargas" : 7794,
+  "tamanio" : 364.42155465628076,
+  "nombre" : "app28q",
+  "descripcion" : "Finanazas"
+}, {
+  "codigo" : 29,
+  "numDescargas" : 48779,
+  "tamanio" : 469.3164879742771,
+  "nombre" : "app29q",
+  "descripcion" : "Fotografía"
+}, {
+  "codigo" : 30,
+  "numDescargas" : 42638,
+  "tamanio" : 845.9199559322964,
+  "nombre" : "app30g",
+  "descripcion" : "Juegos"
+}, {
+  "codigo" : 31,
+  "numDescargas" : 35887,
+  "tamanio" : 307.1704475363763,
+  "nombre" : "app31j",
+  "descripcion" : "Juegos"
+}, {
+  "codigo" : 32,
+  "numDescargas" : 18979,
+  "tamanio" : 836.7397688008174,
+  "nombre" : "app32d",
+  "descripcion" : "Educación"
+}, {
+  "codigo" : 33,
+  "numDescargas" : 36472,
+  "tamanio" : 804.5112220935883,
+  "nombre" : "app33p",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 34,
+  "numDescargas" : 430,
+  "tamanio" : 168.89141425621514,
+  "nombre" : "app34v",
+  "descripcion" : "Cocina"
+}, {
+  "codigo" : 35,
+  "numDescargas" : 12613,
+  "tamanio" : 614.3071256802065,
+  "nombre" : "app35q",
+  "descripcion" : "Estilo de vida"
+}, {
+  "codigo" : 36,
+  "numDescargas" : 34028,
+  "tamanio" : 221.4098507076825,
+  "nombre" : "app36q",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 37,
+  "numDescargas" : 19602,
+  "tamanio" : 892.1522493362194,
+  "nombre" : "app37f",
+  "descripcion" : "Educación"
+}, {
+  "codigo" : 38,
+  "numDescargas" : 1136,
+  "tamanio" : 531.1637854499756,
+  "nombre" : "app38f",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 39,
+  "numDescargas" : 32620,
+  "tamanio" : 893.1674976209848,
+  "nombre" : "app39j",
+  "descripcion" : "Cocina"
+}, {
+  "codigo" : 40,
+  "numDescargas" : 28374,
+  "tamanio" : 310.62446941875544,
+  "nombre" : "app40b",
+  "descripcion" : "Fotografía"
+}, {
+  "codigo" : 41,
+  "numDescargas" : 29143,
+  "tamanio" : 373.4597878448493,
+  "nombre" : "app41k",
+  "descripcion" : "Estilo de vida"
+}, {
+  "codigo" : 42,
+  "numDescargas" : 27043,
+  "tamanio" : 153.57091569219045,
+  "nombre" : "app42n",
+  "descripcion" : "Educación"
+}, {
+  "codigo" : 43,
+  "numDescargas" : 37068,
+  "tamanio" : 999.5701359957367,
+  "nombre" : "app43l",
+  "descripcion" : "Juegos"
+}, {
+  "codigo" : 44,
+  "numDescargas" : 14856,
+  "tamanio" : 327.3433397744367,
+  "nombre" : "app44z",
+  "descripcion" : "Finanazas"
+}, {
+  "codigo" : 45,
+  "numDescargas" : 23861,
+  "tamanio" : 169.7238514113692,
+  "nombre" : "app45d",
+  "descripcion" : "Música"
+}, {
+  "codigo" : 46,
+  "numDescargas" : 7165,
+  "tamanio" : 569.768379611996,
+  "nombre" : "app46o",
+  "descripcion" : "Vídeo"
+}, {
+  "codigo" : 47,
+  "numDescargas" : 8520,
+  "tamanio" : 235.97712773029886,
+  "nombre" : "app47y",
+  "descripcion" : "Cocina"
+}, {
+  "codigo" : 48,
+  "numDescargas" : 39289,
+  "tamanio" : 493.9371896218288,
+  "nombre" : "app48e",
+  "descripcion" : "Educación"
+}, {
+  "codigo" : 49,
+  "numDescargas" : 48335,
+  "tamanio" : 244.1054556854639,
+  "nombre" : "app49j",
+  "descripcion" : "Productividad"
+}, {
+  "codigo" : 50,
+  "numDescargas" : 11288,
+  "tamanio" : 1012.2619685861723,
+  "nombre" : "app50n",
+  "descripcion" : "Productividad"
+} ]
