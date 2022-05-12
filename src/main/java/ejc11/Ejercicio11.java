@@ -4,10 +4,8 @@ package ejc11;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import ejc08.Turismo;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.AccessDeniedException;
@@ -118,6 +116,7 @@ public class Ejercicio11 {
     }
     
     // recorrer un map 
+    
 //    public String toString() {
 //        String texto;
 //        texto=nombre+"\n";

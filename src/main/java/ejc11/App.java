@@ -24,8 +24,8 @@ public class App {
         this.codigo = contador++;
         this.nombre = "app" + this.codigo + letraAZ();
         this.descripcion = listaDescripciones[rnd.nextInt(listaDescripciones.length)];
-        this.tamanio = rnd.doubles(1, 100.0, 1024.0).sum();
-        this.numDescargas = rnd.ints(1, 0, 50000).sum();
+        this.tamanio = rnd.doubles(1, 100.0, 1024.0).findFirst().getAsDouble();
+        this.numDescargas = rnd.ints(1, 0, 50000).findFirst().getAsInt();
         
     }
 
